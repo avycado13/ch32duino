@@ -271,129 +271,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3942,18 +3819,6 @@
 		)
 		(uuid "764bf570-35cb-46cd-b018-af8bc2bcfd4e")
 	)
-	(rectangle
-		(start 153.67 113.03)
-		(end 196.85 140.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c49e61e9-1b0c-4874-b780-548379906f94")
-	)
 	(text "ICSP Header"
 		(exclude_from_sim no)
 		(at 190.5 109.22 0)
@@ -4014,16 +3879,6 @@
 		)
 		(uuid "50717bd7-fc27-4568-91a4-200e4e5e057d")
 	)
-	(text "Test Point"
-		(exclude_from_sim no)
-		(at 190.5 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bafd621b-04ff-48e4-aaa4-9f7e80d637a9")
-	)
 	(junction
 		(at 175.26 43.18)
 		(diameter 0)
@@ -4041,6 +3896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26bc8435-0f9f-4f13-bbab-e63bf8206508")
+	)
+	(junction
+		(at 138.43 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca706c6-9b2f-4bf4-b8ef-4816d19efbbb")
 	)
 	(junction
 		(at 102.87 147.32)
@@ -4061,6 +3922,12 @@
 		(uuid "4caec64b-c3be-4035-965c-265d247b3c15")
 	)
 	(junction
+		(at 119.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ee751f-aac7-4f31-a1d6-767e5782d226")
+	)
+	(junction
 		(at 246.38 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4070,13 +3937,7 @@
 		(at 119.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e139a5f-5d5f-4610-8cca-6c9c9ac3a4d7")
-	)
-	(junction
-		(at 138.43 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7f50629-022b-4e79-bf9c-302511da604e")
+		(uuid "97fab0b9-8fbb-444a-8593-451040642e6a")
 	)
 	(junction
 		(at 251.46 31.75)
@@ -4107,12 +3968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e10dd390-1692-450f-aabd-4a3653501c36")
-	)
-	(junction
-		(at 119.38 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e310b630-a184-49fa-9100-f23ce37aaafe")
 	)
 	(no_connect
 		(at 261.62 78.74)
@@ -4167,26 +4022,6 @@
 			(type solid)
 		)
 		(uuid "004f77db-035a-4124-a1f6-b93657669896")
-	)
-	(wire
-		(pts
-			(xy 119.38 116.84) (xy 121.92 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01928100-169e-4b76-841e-61e09c915f2e")
-	)
-	(wire
-		(pts
-			(xy 163.83 130.81) (xy 163.83 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f0bb4e-36fa-4ca0-97b6-dd00697e0f83")
 	)
 	(wire
 		(pts
@@ -4260,13 +4095,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 185.42 124.46)
+			(xy 138.43 105.41) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f77f421-0651-4f29-8f7f-51693848fd6c")
+		(uuid "1e417ddb-7e15-4e9f-b35d-ea0a22349fa0")
 	)
 	(wire
 		(pts
@@ -4420,16 +4255,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 138.43 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c6b073a-568a-4d57-b18e-ea08644664c3")
-	)
-	(wire
-		(pts
 			(xy 261.62 73.66) (xy 266.7 73.66)
 		)
 		(stroke
@@ -4540,16 +4365,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 135.89) (xy 185.42 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c874b65-9ebc-4051-b65b-5406030e47b5")
-	)
-	(wire
-		(pts
 			(xy 261.62 68.58) (xy 266.7 68.58)
 		)
 		(stroke
@@ -4587,6 +4402,16 @@
 			(type default)
 		)
 		(uuid "4e6539e1-3d35-4f97-b4d1-a79e3c59360a")
+	)
+	(wire
+		(pts
+			(xy 119.38 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ff3c52-ce29-42a7-b0fb-ab261eeb19f8")
 	)
 	(wire
 		(pts
@@ -4750,7 +4575,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 130.81 113.03)
+			(xy 129.54 110.49) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4870,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 107.95)
+			(xy 138.43 102.87) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4897,16 +4722,6 @@
 			(type solid)
 		)
 		(uuid "9427daf4-89bd-4fb4-a139-de482bcb6250")
-	)
-	(wire
-		(pts
-			(xy 168.91 125.73) (xy 168.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94cd0bf6-cf26-44ee-91ca-312dde2064da")
 	)
 	(wire
 		(pts
@@ -4990,7 +4805,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 110.49) (xy 144.78 107.95)
+			(xy 144.78 110.49) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 144.78 107.95)
+			(xy 138.43 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5220,16 +5035,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 135.89) (xy 168.91 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e0a2d6-b748-4cf4-bc75-f41246c04565")
-	)
-	(wire
-		(pts
 			(xy 128.27 55.88) (xy 128.27 73.66)
 		)
 		(stroke
@@ -5260,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 109.22) (xy 129.54 113.03)
+			(xy 129.54 109.22) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5577,16 +5382,6 @@
 			(justify left bottom)
 		)
 		(uuid "278a6b0c-f312-4ef5-885c-d3e4bdd34593")
-	)
-	(label "~{RESET}"
-		(at 184.15 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2872beba-ab14-4055-a389-df9b9f54dfec")
 	)
 	(label "A2"
 		(at 90.17 40.64 0)
@@ -6571,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6614,85 +6409,6 @@
 			(project "ch32duino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13ae1d98-01fd-46b9-a799-6e74470e89d4")
-		(property "Reference" "TP3"
-			(at 171.45 131.3179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+5v"
-			(at 171.45 133.8579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c363bb70-183a-425f-a727-65e80d956f79")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6964,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 134.62 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -7013,84 +6729,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37111651-5301-4990-a64b-bfa4c2486904")
-		(property "Reference" "#PWR0122"
-			(at 180.34 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 180.34 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76d5a3fd-fc75-4a6a-9b30-87662c62c072")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 39.37 0)
 		(mirror y)
@@ -7124,7 +6762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 164.1348 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7366,7 +7004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 212.852 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -7446,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7606,83 +7244,6 @@
 			(project "ch32duino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47cc7e80-0be3-49fe-939c-39876e16a3e7")
-		(property "Reference" "#PWR0120"
-			(at 168.91 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bce8dc42-2888-4ba2-a0fd-3f1d75a6aa49")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7942,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.3852 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7992,7 +7553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 113.03 90)
+		(at 134.62 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8000,10 +7561,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5eb03c6c-eabc-4843-ab83-905a32080e67")
 		(property "Reference" "R4"
-			(at 134.62 106.68 90)
+			(at 134.62 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8013,7 +7573,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 134.62 109.22 90)
+			(at 134.62 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8022,8 +7582,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 114.808 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 134.62 112.268 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +7594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 113.03 0)
+			(at 134.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +7605,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 113.03 0)
+			(at 134.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8382,85 +7942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95978426-30a7-45b4-b5cf-f9478128703b")
-		(property "Reference" "TP2"
-			(at 187.96 119.8879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3v3"
-			(at 187.96 122.4279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 190.5 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 185.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c363bb70-183a-425f-a727-65e80d956f79")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 247.65 26.67 0)
 		(unit 1)
@@ -8649,7 +8130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.932 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -8692,84 +8173,6 @@
 			(project "ch32duino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac513754-e6a6-4395-8e6a-280d68cecfec")
-		(property "Reference" "#PWR0121"
-			(at 163.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 163.83 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8750630-34a9-4a1f-81cf-c2b9e1570ba2")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -9117,7 +8520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9398,164 +8801,6 @@
 			(project "ch32duino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec79de28-30f7-4c11-94ad-b9679c007761")
-		(property "Reference" "TP4"
-			(at 187.96 131.3179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~{RESET}"
-			(at 187.96 133.8579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 190.5 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 185.42 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c363bb70-183a-425f-a727-65e80d956f79")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed0bb62e-bead-48a2-8fea-75e3dad9a83c")
-		(property "Reference" "TP1"
-			(at 171.45 119.8879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 122.4279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 173.99 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c363bb70-183a-425f-a727-65e80d956f79")
-		)
-		(instances
-			(project "ch32duino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
