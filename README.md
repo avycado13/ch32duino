@@ -1,6 +1,10 @@
 # CH32Duino
 A Devboard made from an ultra cheap ch32v203
 
+<img width="507" height="453" alt="PCB 3D View" src="https://github.com/user-attachments/assets/a4032301-2ad0-4113-aec0-aaaed1c631bd" />
+
+
+
 ## Features
 - Arduino micro-ish pinout
 - USB-C Port
