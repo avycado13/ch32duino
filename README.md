@@ -2,6 +2,9 @@
 A Devboard made from an ultra cheap ch32v203
 
 <img width="507" height="453" alt="PCB 3D View" src="https://github.com/user-attachments/assets/a4032301-2ad0-4113-aec0-aaaed1c631bd" />
+<img width="473" height="249" alt="PCB" src="https://github.com/user-attachments/assets/3d4cebf5-6dae-4d73-b1f1-f905081ca158" />
+<img width="1029" height="712" alt="Schematic" src="https://github.com/user-attachments/assets/60620397-e2b7-47a3-8953-1e77bef16d21" />
+
 
 
 
