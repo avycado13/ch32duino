@@ -20,3 +20,6 @@ I finished making a full scale arduino-esque board and I wanted to make another 
 | 2 | R3, R4 | 5.1K | 0805 | 5.1K 0805 Resistors | $0.0055 | [JLCPCB](https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834) |
 | 2 | C1, C2 | 100nF | 0805 | 100nF 0805 Capacitors | $0.0205 | [JLCPCB](https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678) |
 | 1 |  | | | PARTS SUBTOTAL (with minimum quantities): | $6.7640 |
+
+## Firmware
+For firmware, I am using ch32fun at the moment.
