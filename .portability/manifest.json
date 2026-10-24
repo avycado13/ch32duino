@@ -1,0 +1,32 @@
+{
+  "backed_up": [
+    {
+      "path": "ch32duino.kicad_pcb",
+      "backup": "backup/ch32duino.kicad_pcb"
+    }
+  ],
+  "created_files": [
+    "packages3D/Package_TO_SOT_SMD.3dshapes/SOT-223.step",
+    "packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step",
+    "packages3D/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+    "packages3D/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+    "packages3D/Button_Switch_THT.3dshapes/SW_PUSH_6mm.step",
+    "packages3D/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.step",
+    "packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x17_P2.54mm_Vertical.step"
+  ],
+  "created_dirs": [
+    "packages3D/Package_TO_SOT_SMD.3dshapes",
+    "packages3D/Connector_PinHeader_2.54mm.3dshapes",
+    "packages3D/Resistor_SMD.3dshapes",
+    "packages3D/Capacitor_SMD.3dshapes",
+    "packages3D/Button_Switch_THT.3dshapes",
+    "packages3D/Package_QFP.3dshapes"
+  ],
+  "summary": {
+    "models": {
+      "files_copied": 7,
+      "remapped": 12,
+      "unique_sources": 7
+    }
+  }
+}
